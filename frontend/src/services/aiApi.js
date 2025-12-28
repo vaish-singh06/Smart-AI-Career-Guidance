@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://smart-ai-career-guidance.onrender.com";
 
 export async function getCareerGuidance(profile) {
   const res = await fetch(`${API_URL}/ai/full-career-guidance`, {
